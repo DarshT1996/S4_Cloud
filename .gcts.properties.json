@@ -1,0 +1,12 @@
+{
+  "name": "darsht1996-s4_cloud",
+  "version": "1.0.0",
+  "description": "DarshT1996-S4_Cloud",
+  "repositoryLayout": {
+    "format": "json",
+    "formatVersion": "6",
+    "keepClient": "false",
+    "metaInformation": ".gctsmetadata/",
+    "tableContent": "true"
+  }
+}
