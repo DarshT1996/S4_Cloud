@@ -1,0 +1,60 @@
+[
+ {
+  "table":"ACMDCLSRC",
+  "data":
+  [
+   {
+    "DCLNAME":"ZI_MATERIALSHELFLIFEMA",
+    "AS4LOCAL":"A",
+    "AS4USER":"SAP_CUSTOMER",
+    "AS4DATE":"2025-07-21",
+    "AS4TIME":"12:42:53",
+    "SOURCE":"@MappingRole: true\r\ndefine role ZI_MaterialShelflifeMa {\r\n  grant select on ZI_MaterialShelflifeMa ;\r\n//  where ( ) = ASPECT pfcg_auth ( 'S_TABU_NAM', ACTVT = '03', TABLE = 'ZI_MATERIALSHELFLIFEMA' );\r\n}",
+    "PARENTNAME":"",
+    "ABAP_LANGUAGE_VERSION":"5"
+   }
+  ]
+ },
+ {
+  "table":"ACMDCLSRCT",
+  "data":
+  [
+   {
+    "DCLNAME":"ZI_MATERIALSHELFLIFEMA",
+    "DCLLANGUAGE":"E",
+    "AS4LOCAL":"A",
+    "DDTEXT":"Mapping Role for ZI_MaterialShelflifeMa"
+   }
+  ]
+ },
+ {
+  "table":"TADIR",
+  "data":
+  [
+   {
+    "PGMID":"R3TR",
+    "OBJECT":"DCLS",
+    "OBJ_NAME":"ZI_MATERIALSHELFLIFEMA",
+    "KORRNUM":"",
+    "SRCSYSTEM":"...",
+    "AUTHOR":"SAP_CUSTOMER",
+    "SRCDEP":"",
+    "DEVCLASS":"Z_CPG",
+    "GENFLAG":"",
+    "EDTFLAG":"",
+    "CPROJECT":" L",
+    "MASTERLANG":"E",
+    "VERSID":"",
+    "PAKNOCHECK":"",
+    "OBJSTABLTY":"",
+    "COMPONENT":"",
+    "CRELEASE":"",
+    "DELFLAG":"",
+    "TRANSLTTXT":"",
+    "CREATED_ON":"2025-07-21",
+    "CHECK_DATE":"2025-07-21",
+    "CHECK_CFG":""
+   }
+  ]
+ }
+]
