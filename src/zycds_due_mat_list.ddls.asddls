@@ -126,4 +126,5 @@ case I_ProductStorage_2.ShelfLifeExpirationDatePeriod
 //}
 
 where I_Batch.ShelfLifeExpirationDate is not initial
-  //and ZYCDS_SUM_STOCK_01.MatlWrhsStkQtyInMatlBaseUnit <> 0
+   and ( ZYCDS_SUM_STOCK_01.MatlWrhsStkQtyInMatlBaseUnit <> 0
+        or ZYCDS_SUM_STOCK_01.BlockedStockQty <> 0 )
